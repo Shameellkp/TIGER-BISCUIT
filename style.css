@@ -1,0 +1,142 @@
+*{
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box ;
+}
+.navbar{
+    background-color: rgb(15, 4, 44);
+    padding:4px 5px 0px 18px ;
+    color: white;
+
+}
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content:space-between ;
+  
+}
+li{
+    display: inline-block;
+    list-style:none;
+    padding:26px ;
+  
+}
+.navbar a{
+    color: white;
+    font-size: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+.navdiv a:hover{
+    color:rgb(167, 26, 26);
+}
+.card img{
+    max-width:100% ;
+}
+.image{
+    position: relative;
+  
+}
+.text{
+    position: absolute;
+   
+}
+.text p{
+   padding:135px 100px 10px 90px ;
+}
+.endp{
+    position:relative;
+}
+text{
+    position:absolute;
+}
+.pixel{
+    max-width:fit-content;
+}
+.pp{
+    position: relative;
+}
+.tt{
+    position:absolute;
+}
+.tt p{
+    padding:42px 65px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: 15px;
+}
+.tt2{
+    padding:40px 540px;
+}
+
+.white img{
+    height:75px ;
+}
+.subw{
+    position: absolute;
+}
+.flexx{
+    display: flex;
+    justify-content: space-around;
+}
+.para1{
+    
+    padding-top: 40px;
+    padding-right:110px ;
+}   
+.para2{
+    padding-top:40px ;
+    padding-right: 20px;
+}
+.para2 a{
+    color: black;
+}
+.para3{
+    padding-top:40px;
+    padding-right: 130px;
+}
+.para3 a{
+    color: black;
+}
+.gg{
+    display: flex;
+    transform: translateY(12px);
+}
+.gg1{
+    display: flex;
+    transform: translateY(21px);
+}
+.gg2{
+    display: flex;
+    transform: translateY(30px);
+}
+.text{
+    transform: translateX(50px)translateY(-35px);
+    
+}
+.cc{
+    transform: translateY(-4px);
+}
+.hover1 :hover{
+    color: rgb(170, 37, 37);
+}
+.hover1 a{
+    color: black;
+}
+.hover2 :hover{
+    color: rgb(145, 48, 48);
+    transition: 0.4s;
+}
+.hover3 :hover{
+    color: rgb(201, 50, 50);
+}
+.hover4 :hover{
+    color: rgb(201, 50, 50);
+}
+.hover5 :hover{
+    color: rgb(201, 50, 50);
+}
+.hover1{
+    transform: translateY(45px);
+}
